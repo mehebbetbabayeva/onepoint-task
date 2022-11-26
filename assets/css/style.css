@@ -5,3 +5,84 @@
     list-style-type: none;
     text-decoration: none;
 }
+
+/* start header */
+header{
+    position: sticky;
+
+}
+header .contanier{
+    width: 100%;
+    height: 80px;
+    background-color: #0F1923;
+    display: flex;
+    align-items: center;  
+    justify-content: space-between;
+    padding: 0 50px;
+}
+/* header logo */
+header .contanier figure a img{
+    width: 180px;
+    height: 40px;
+}
+/* header nav */
+header .contanier nav{
+    display: flex;   
+}
+header .contanier nav ul{
+   padding: 0 30px; 
+}
+header .contanier nav ul li a{
+    color: #fff; 
+    font-family: Cab, sans-serif;
+    font-size: 20px;
+    line-height: 25px;
+    width: 120px;
+    height: 45px;  
+    font-family: Cabin , sans-serif;
+}
+header .contanier nav ul li a:hover{
+    color:#fac819;
+}
+header .contanier nav ul li{
+    display: inline-block;
+    padding:10px;
+}
+/* header social nav */
+header .contanier nav .social-nav {
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+header .contanier nav .social-nav ul{
+    display: flex;
+}
+header .contanier nav .social-nav ul li{
+   background-color: #323c46; 
+   width: 35px;
+   height:35px;
+   border-radius: 50%;
+   margin: 0 10px;
+   display: flex;
+   justify-content: center;
+   align-items: center;  
+}
+header .contanier nav .social-nav ul li:hover{
+    background-color: #fac819;
+}
+header .contanier nav .social-nav ul li:hover a{
+    color: #000;
+}
+header .contanier nav .social-nav ul li a {
+   font-size: 16px;
+   color: #fff;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+
+/* end header */
+
+/* start main */
+
+/* end main */
